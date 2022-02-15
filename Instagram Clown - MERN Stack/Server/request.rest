@@ -1,0 +1,41 @@
+POST http://localhost:3000/signin
+Content-Type: application/json
+
+{
+    "email": "petarian51@gmail.com",
+    "password": "tanoli11"
+}
+
+###
+
+POST http://localhost:3000/createpost
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTY3MDhhMzkyY2E5YmYyOGVkZGQ0N2EiLCJpYXQiOjE2MzQ1MDI5NDN9.Myv6S6p6MF94nGCq5ulgMOMz637VxOraGoDYbAFzMKI
+
+{
+    "title": "title 2",
+    "body":"body 2"
+}
+
+###
+
+GET http://localhost:3000/allpost
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTY3MDhhMzkyY2E5YmYyOGVkZGQ0N2EiLCJpYXQiOjE2MzQ1MDI5NDN9.Myv6S6p6MF94nGCq5ulgMOMz637VxOraGoDYbAFzMKI
+
+###
+
+GET http://localhost:3000/mypost
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTY3MDhhMzkyY2E5YmYyOGVkZGQ0N2EiLCJpYXQiOjE2MzQ1MDI5NDN9.Myv6S6p6MF94nGCq5ulgMOMz637VxOraGoDYbAFzMKI
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "name": "huzaifa",
+    "email": "huzaifa@gmail.com",
+    "password": "huzaifa"
+}

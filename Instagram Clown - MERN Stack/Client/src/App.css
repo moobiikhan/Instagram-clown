@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+    color: black !important;
+
+}
+
+.brand-logo, h4{
+    font-family: 'Grand Hotel', cursive;
+}
+
+
+.mycard{
+    align-content: center;
+    text-align: center;
+    padding: 80px;
+    padding-left: 400px;
+
+    
+}
+
+
+.auth-card{
+    
+    text-align: center;
+    padding: 50px;
+    max-width: 500px;
+    
+}
+
